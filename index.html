@@ -12,36 +12,30 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="header">
-      <h1 class="main-title">Take a Note</h1>
-    </header>
+    <div class="main">
+      <header class="header">
+        <h1 class="main-title">Take a Note</h1>
+      </header>
 
-    <form action="">
-      <input
-        type="text"
-        class="input-gorev"
-        name="input"
-        id="input"
-        placeholder="add one note"
-      />
-      <button type="submit">
-        <i class="fa-solid fa-plus"></i>
-      </button>
-    </form>
-    <div class="gorev-container">
-      <ul class="gorev-listesi">
-        <div class="gorev-item">
-          <li class="gorev-tanim">Go grosery</li>
-          <button class="gorev-btn gorev-tamam">
-            <i class="fa-solid fa-check"></i>
-          </button>
-          <button class="gorev-btn gorev-sil">
-            <i class="fa-solid fa-trash"></i>
-          </button>
-        </div>
-      </ul>
+      <form action="#" class="gorev-form">
+        <input
+          type="text"
+          class="form-item input-gorev"
+          name="input"
+          id="input"
+          placeholder="add one note"
+        />
+        <button type="submit" class="form-item btn-gorev-ekle">
+          <i class="fa-solid fa-plus"></i>
+        </button>
+      </form>
+      <div class="gorev-container">
+        <ul class="gorev-listesi"></ul>
+      </div>
     </div>
+    <script src="app.js"></script>
   </body>
 </html>

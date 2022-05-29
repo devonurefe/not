@@ -1,1 +1,1 @@
-ECHO is on.
+# Simple note app
